@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+/*Header*/
+
+header {
+  width: 100%;
+  padding-left: 2rem;
+  float: right;
+}
+
+.heading {
+  padding: 1rem 1rem 1.5rem;
+}
+
+header .heading h1 {
+  color: #991f48;
+  font-weight: 300;
+  font-size: 3rem;
+  margin-bottom: 0.65rem;
+}
+
+.heading p {
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+}
+
+nav {
+  background-color: #a6a196;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  padding: 0.8rem 4rem;
+  font-weight: 600;
+  transition: all 0.5s linear;
+}
+
+.nav-links a:hover {
+  background-color: #991f48;
+}
+
+/* Body */
+
+.image {
+  background-color: #f5f7f6;
+  width: 100%;
+  height: 40%;
+}
+
+.main-image {
+  width: 100%;
+  padding: 2rem 2rem 4rem;
+  height: 80%;
+}
+
+.contact {
+  margin-top: 2rem;
+  background-color: #991f48;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  text-align: center;
+  width: 55%;
+}
+
+.content h1 {
+  margin-top: 2.8rem;
+  font-size: 4rem;
+}
+
+.content p {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  line-height: 1.7rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.buttons button {
+  color: white;
+  background-color: #991f48;
+  padding: 1rem 2rem;
+  border: 2px solid white;
+  cursor: pointer;
+  font-weight: 700;
+  transition: all 0.2s linear;
+}
+
+.buttons button:hover {
+  background-color: #fff;
+  color: #991f48;
+}
+
+.description {
+  margin: 3rem auto 0;
+  width: 95%;
+}
+
+.description p {
+  margin-bottom: 2rem;
+  font-size: 1.3rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.description .head {
+  color: #991f48;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2.5rem;
+}
+.address h1 {
+  color: #991f48;
+  margin-bottom: 2rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.address p {
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 0.2rem;
+  font-size: 1.2rem;
+}
+
+/* Footer */
+
+footer {
+  margin-top: 3rem;
+}
+
+.footer-content {
+  background-color: #a1a49c;
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 1rem 0;
+  font-weight: 600;
+}
